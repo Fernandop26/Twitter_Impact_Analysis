@@ -207,7 +207,6 @@ if __name__ == '__main__':
     while True:
         try:
             UI_Tweet_impact()
-            # main("https://twitter.com/eurogamer/status/1407357458713137165")
             break
         except tweepy.TweepError:
             UI_Tweepy_Error()
